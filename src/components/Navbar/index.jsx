@@ -15,8 +15,11 @@ const Home = () => {
         </Section>
         <Section>
           {
-            navbar.map(value=>{
-              return <Link className={({isActive})=>isActive && 'active'} key={value.id} to={value.path}>{value.title}</Link>
+            navbar.map((value,index)=>{
+              return <Link className={({isActive})=>isActive && 'active'} key={index}
+               to={value.path}>
+                {value.title}
+                </Link>
             })
           }
         </Section>

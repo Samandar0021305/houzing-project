@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom"
 import  styled  from "styled-components" 
 const Container = styled.div`
+display:flex;
+flex-direction:column;
+justify-content:center;
 `
 const Wrapper = styled.div`
 display:flex;
