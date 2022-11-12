@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './index';
+import {Container} from './style';
 
 const Home = () => {
   return (
