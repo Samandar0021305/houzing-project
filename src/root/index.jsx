@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const index = () => {
+ const Root = () => {
   return (
-    <div>index</div>
+    <div>Root</div>
   )
 }
+
+export default Root
