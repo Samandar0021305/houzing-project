@@ -15,3 +15,12 @@ ul,li{
 a{
   text-decoration: none;
 }
+
+:root{
+/* color */
+  --colorPrimary:#0D263B;
+  --colorSecondary:#696969;
+
+  /* backgound */
+  --backgroundPrimary:#0061DF;
+}
